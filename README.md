@@ -12,3 +12,7 @@ A geospatial analysis evaluating spatial access thresholds to public and private
 - **Cohort:** GeoDev Lab Africa, Cohort One (2026)
 
 See [`project-brief.md`](project-brief.md) for full project scope and methodology details.
+
+## Month 1 Analysis: 2 km Healthcare Catchment
+
+Full analytical methodology and results documented in [`month-1-summary.md`](month-1-summary.md).
