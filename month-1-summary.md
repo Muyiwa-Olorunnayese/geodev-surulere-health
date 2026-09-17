@@ -1,3 +1,4 @@
+<img width="3507" height="2480" alt="healthcare_catchment_2km" src="https://github.com/user-attachments/assets/04f8a1a4-fdf8-446f-874c-57d5f60b8779" />
 # Month 1 Summary: Healthcare Access in Surulere LGA
 
 ## 1. Project Objective & Question
