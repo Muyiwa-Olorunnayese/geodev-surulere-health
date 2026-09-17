@@ -3,11 +3,11 @@
 ## 1. GRID3 Nigeria Operational LGA Boundaries
 - **Source & Link:** [GRID3 Data Hub](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries)
 - **Version & Date:** v2.0 / v3.0 Operational Boundaries
-- **Downloaded On:** September 2026
+- **Downloaded On:** 12th September 2026
 - **Format:** GeoPackage (.gpkg)
 - **Feature Count:** 774 national features (filtered to 1 feature: Surulere LGA)
 - **Geometry Type:** Polygon / MultiPolygon
-- **Key Columns:** `lga_name` (Text), `state_name` (Text), `lga_code` (Text)
+- **Key Columns:** `lga_name` (Surulere), `state_name` (Lagos), `lga_code` (25018)
 - **CRS:** EPSG:4326 (WGS 84 geographic)
 - **Quality & Gaps:** No missing values or nulls in administrative attributes. The boundary cleanly isolates Surulere LGA and aligns with official Lagos State administrative demarcations.
 
@@ -16,11 +16,10 @@
 ## 2. GRID3 Nigeria Health Facilities v3.0
 - **Source & Link:** [GRID3 Data Hub](https://data.grid3.org/datasets/GRID3::grid3-nga-health-facilities-v3-0)
 - **Version & Date:** v3.0
-- **Downloaded On:** September 2026
+- **Downloaded On:** 12th September 2026
 - **Format:** GeoPackage (.gpkg)
-- **Feature Count:** [Insert your clipped count in Surulere, e.g., 42] features within Surulere extent
+- **Feature Count:**  28 features within Surulere extent
 - **Geometry Type:** Point
-- **Key Columns:** `facility_name` (Text), `facility_type` (Text), `ward_name` (Text), `ownership` (Text), `functional_status` (Text)
 - **CRS:** EPSG:4326 (WGS 84 geographic)
 - **Quality & Gaps:**
   - **Completeness:** Captures the major public facilities (Randle General Hospital, primary health centres) and larger private clinics. Minor neighborhood patent medicine stores and private outpatient clinics are not fully represented.
@@ -34,9 +33,7 @@
 - **Extraction Query:** `highway=*` within Surulere study area extent
 - **Extracted On:** September 2026
 - **Format:** GeoPackage (.gpkg)
-- **Feature Count:** [Insert road row count, e.g., 2,840] features
 - **Geometry Type:** LineString / MultiLineString
-- **Key Columns:** `osm_id` (Text), `highway` (Text), `name` (Text), `surface` (Text)
 - **CRS:** EPSG:4326 (WGS 84 geographic)
 - **Quality & Gaps:**
   - **Completeness:** Excellent street-level coverage across core Surulere avenues (Bode Thomas, Ogunlana Drive, Lawanson, Western Avenue).
